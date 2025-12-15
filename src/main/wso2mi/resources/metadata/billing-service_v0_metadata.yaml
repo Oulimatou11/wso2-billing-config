@@ -1,0 +1,10 @@
+---
+key: "billing-service-v0"
+name : "billing-service"
+displayName : "billing-service"
+description: "billing-service"
+version: "v0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/default"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false

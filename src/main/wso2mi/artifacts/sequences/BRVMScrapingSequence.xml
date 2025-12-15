@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="BRVMScrapingSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <http.post configKey="BRVM_API">
+        <relativePath>/api/schedule/scrape</relativePath>
+        <headers>[]</headers>
+        <requestBodyType>JSON</requestBodyType>
+        <requestBodyJson></requestBodyJson>
+        <forceScAccepted>false</forceScAccepted>
+        <disableChunking>false</disableChunking>
+        <forceHttp10>false</forceHttp10>
+        <noKeepAlive>false</noKeepAlive>
+        <forcePostPutNobody>false</forcePostPutNobody>
+        <responseVariable>http_post_1</responseVariable>
+        <overwriteBody>true</overwriteBody>
+    </http.post>
+</sequence>
